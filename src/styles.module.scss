@@ -1,5 +1,6 @@
 :global {
   .tooltip__frame {
+    display: flex;
     &__data {
       position: absolute;
       display: flex;
