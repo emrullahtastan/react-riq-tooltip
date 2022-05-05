@@ -38,7 +38,7 @@ function Tooltip(props) {
           )
           let value = childrenXPos - tooltipWidth + childrenWidth
           if (value < 0) {
-            value = 0
+            value = childrenXPos
             setTooltipFrameClassName('tooltip__frame__data__top-left')
           }
           setCompLeft(value)

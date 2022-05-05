@@ -5,7 +5,7 @@ import "react-riq-tooltip/dist/index.css";
 
 const App = () => {
   return (
-    <div style={{ marginTop: "50px" }}>
+    <div style={{ marginTop: "250px", marginLeft: "250px" }}>
       <Tooltip data={"List options menu this click opening full sentence example"}>
         <div>element</div>
       </Tooltip>
