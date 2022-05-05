@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div style={{ marginTop: "20px", display:"flex"/*, marginLeft: "200px"*/ }}>
       <Tooltip data={"List options menu this click opening full sentence example"}>
-        <div style={{}}> element</div>
+        <div>element</div>
       </Tooltip>
     </div>
   );

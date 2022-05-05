@@ -13,16 +13,23 @@ npm install --save react-riq-tooltip
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from "react";
 
-import MyComponent from 'react-riq-tooltip'
-import 'react-riq-tooltip/dist/index.css'
+import Tooltip from "react-riq-tooltip";
+import "react-riq-tooltip/dist/index.css";
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+const App = () => {
+  return (
+    <div>
+      <Tooltip data={"List options menu this click opening full sentence example"}>
+        <div>element</div>
+      </Tooltip>
+    </div>
+  );
+};
+
+export default App;
+
 ```
 
 ## License
